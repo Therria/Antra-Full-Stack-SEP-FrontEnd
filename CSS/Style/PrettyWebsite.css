@@ -1,0 +1,151 @@
+.web-font-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  position: relative;
+  height: 290px;
+  top: 0;
+}
+
+.header-title {
+  background-image: url("../images/tree-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  height: 250px; 
+  width: 100%; 
+}
+
+.header-title h3 {
+  position:absolute;
+  color: aliceblue;
+  font-weight: bold;
+  bottom: 25px;
+  right: 80px;
+}
+
+.nav-bar {
+  background: linear-gradient(white,rgb(231, 231, 231) 50%);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav { 
+  border-bottom: 1px solid aliceblue;
+  margin-bottom: 2px !important;
+}
+
+.nav-item a {
+  color: rgb(146, 146, 146);
+  font-weight: bold;
+  border-right: 2px solid aliceblue;
+}
+
+.nav-item a:hover {
+  color: aliceblue;
+  background: linear-gradient(rgb(199, 199, 199),darkgray 80%) ;
+}
+
+.container-fluid {
+  padding: 0 10em !important;
+}
+
+#body-content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.card {
+  box-shadow: -1px 2px rgba(128, 128, 128, 0.315), 1px 0 rgba(128, 128, 128, 0.315);
+  margin: 2em 0;
+}
+
+.card:hover {
+  background-color:rgb(231, 231, 231);
+}
+
+.card-title a {
+  display: block;
+  font-weight: bold;
+  color:rgb(132, 190, 44);
+  text-decoration: none;
+  margin-bottom: 1em;
+}
+
+.card-title a:hover {
+  color: rgba(128, 255, 0, 0.651);
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.product-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.product-text a:hover {
+  color: rgb(119, 119, 119);
+}
+
+.product-card h6 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.news {
+  margin-bottom: 1em;
+}
+
+.news p {
+  margin-bottom: 0 !important;
+}
+
+.date {
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+
+.news a {
+  color:rgb(132, 190, 44);
+}
+
+.news a:hover {
+  color:rgba(128, 255, 0, 0.651);
+}
+
+.messages-card a {
+  color:rgb(132, 190, 44);
+}
+
+.messages-card a:hover {
+  color:rgba(128, 255, 0, 0.651);
+}
+
+
+footer {
+  position:relative;
+  bottom:0;
+  border-top: 1px;
+  height: 70px;
+  width: 100%;
+}
+
+.footer-background {
+  background-color: rgba(113, 201, 25, 0.911);
+}
+
+footer p {
+  text-align: right;
+  margin-top: 20px !important;
+  font-size: small;
+}
+
+footer p a {
+  color: black;
+}
