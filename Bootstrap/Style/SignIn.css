@@ -1,0 +1,38 @@
+
+.web-font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-ellipse {
+  background-color: transparent;
+  border: 1px solid aliceblue;
+  border-radius: 2em;
+  padding: 0.2em 1em;
+  margin-left: 1ex;
+}
+
+.btn-ellipse:hover {
+  background-color: aliceblue;
+}
+
+.btn-ellipse a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.btn-ellipse a:hover {
+  color: black;
+}
+
+.register {
+  background-color: aliceblue !important;
+  color: black !important;
+}
+
+.sign-in-box {
+  margin: 5em 25em;
+}
+
+form h3 {
+  font-weight: bold;
+}

@@ -1,0 +1,52 @@
+.web-font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-ellipse {
+  background-color: transparent;
+  border: 1px solid aliceblue;
+  border-radius: 2em;
+  padding: 0.2em 1em;
+  margin-left: 1ex;
+}
+
+.btn-ellipse:hover {
+  background-color: aliceblue;
+
+}
+
+.btn-ellipse a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.btn-ellipse a:hover {
+  color: black;
+}
+
+.register {
+  background-color: aliceblue !important;
+  
+}
+
+.register a {
+  color: black !important;
+}
+
+.register a:hover {
+  color: rgba(0, 0, 0, 0.493) !important;
+}
+
+.sign-in-box {
+  margin: 5em 25em;
+}
+
+form h3 {
+  font-weight: bold;
+}
+
+form h4 {
+  font-size: 1.2em;
+  font-weight:500;
+  margin-bottom: 1.5em !important;
+}
